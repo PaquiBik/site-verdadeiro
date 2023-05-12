@@ -78,7 +78,6 @@
 
 .alunos-fotos {
   
- 
     width: 150px;
       padding: 10px;
       
@@ -92,13 +91,7 @@
     background-color: #f7f7f7;
     }
     
-    .alunos-fotos img {
-      max
-    
-    max-width: 100%;
-    }
-    
-    }
+
 
 .roda-pé {
     background-color: black;
