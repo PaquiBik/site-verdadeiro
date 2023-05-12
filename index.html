@@ -1,108 +1,86 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Alura Plus</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <section class="principal container">
-        <div class="container__caixa">
-            <h1 class="container__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço
-                único.</h1>
-            <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua" class="container__imagem">
-            <a href="www.alura.com.br" class="container__botao">Assine por 12x de R$ 120,00*</a>
-            <a href="www.alura.com.br" class="container__botao botao_secundario">Assinar somente o Alura+</a>
-            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
+<html lang="pt-br">
+  <head>
+    <title>Projeto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+  </head>
+  <body>
+    
+<header class="cabeçalho">
+        <img class="cabeçalho-imagem" src="g-cep.png" alt="Logo do CEP">
+        <p class="texto-cabecalho">Estilo de site</p>
+        <ul class="cabeçalho-lista">
+            <li class="cabeçalho-lista-item"> <a href="#corpo">Projeto</a> </li>
+            <li class="cabeçalho-lista-item"> <a href="#quem-somos">Sobre nós</a> </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Disciplinas</a>
+                <div class="dropdown-content">
+                    <a href="https://robotica-five.vercel.app/">Robótica</a>
+                    <a href="#">Disciplina 2</a>
+                    <a href="#">Disciplina 3</a>
+                </div>
+            </li>
+  </ul>
+     
+ <section id="corpo">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo">Site</h2>
+            <p class="paragrafo-um">Este site foi criado para fins de estudo e avaliação.
+            <p class="paragrafo-dois"> Quer uma dica? Aproveite do botões.</p>
         </div>
-    </section>
-
-    <section class="container secundario">
-        <img src="img/Plataformas.png" alt="Um monitor e um celular com a alura plus aberta" class="secundario__imagem">
-        <div class="container__descricao">
-            <h2 class="descricao__titulo">Assista do seu jeito</h2>
-            <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros
-                aparelhos. Nossa seleção de cursos não para de crescer.</p>
+        <img class="foto-corpo" src="g-foto.png" alt="foto do corpo">
+ </section>
+      
+  <section id="quem-somos">
+        <h2 class="quem-somos-titulo">Nossa equipe:</h2>
+        <div class="alunos-todos">
+            <div class="alunos-div">
+                <img class="alunos-fotos" src="Fabio.foto.jpeg" alt="foto do aluno" width: 10px;
+                padding: 10px;>
+                <h3 class="nome-aluno">Aluno 01 da turma XXX</h3>
+                <p>Informações
+                </p>
+            </div>
+            <div class="alunos-div">
+                <img class="alunos-fotos" src="Luiz.foto.jpg" alt="foto do aluno" width: 10px;
+                padding: 10px;>
+                <h3 class="nome-aluno">Aluno 02 da turma XXX</h3>
+                <p>Informações
+                </p>
+            </div>
+            <div class="alunos-div">
+                <img class="alunos-fotos" src="Lucas.foto.jpg" alt="foto do aluno" width: 10px;
+                padding: 10px;>
+                <h3 class="nome-aluno">Aluno 03 da turma XXX</h3>
+                <p>Informações
+                </p>
+            </div>
+            <div class="alunos-div">
+                <img class="alunos-fotos" src="Isa.foto.jpg" alt="foto do aluno" width: 10px;
+                padding: 10px;>
+                <h3 class="nome-aluno">Aluno 04 da turma XXX</h3>
+                <p>Informações
+                </p>
+            <div class="alunos-div">
+                <img class="alunos-fotos" src="Andre.foto.jpeg" alt="foto do aluno" width: 10px;
+                padding: 10px;>
+                <h3 class="nome-aluno">Aluno 05 da turma XXX</h3>
+                <p>Informações
+                    </p>
+            </div>
         </div>
-    </section>
-
-    <section class="container secundario">
-        <div class="container__descricao">
-            <p class="descricao__texto">
-                Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da
-                tecnologia e aprender inglês ou espanhol, onde e como quiser.
-            </p>
-            <a href="www.alura.com.br" class="container__botao secundario__botao" container>Assine o Combo+</a>
+   </section>
+  
+  <footer class="roda-pé">
+        <p class="fim"> Trabalho desenvolvido na disciplina de programação </p>
+        <div class="meio">
+            <img class="roda-pé-imagem" src="g-cep.png" alt="Logo">
+            <span></span>
+            <p class="roda-pé-texto">Colégio Estadual do Paraná</p>
         </div>
-        <img src="img/Telas.png" alt="Tela do alura+ e alura língua" class="secundario__imagem">
-    </section>
-
-    <section class="container secundario">
-        <img src="img/Notebook.png" alt="Notebook com a página do curso HTML5 e CSS3 da Alura aberta"
-            class="secundario__imagem">
-        <div class="container__descricao">
-            <h2 class="descricao__titulo">Baixe seus cursos</h2>
-            <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com
-                você, até mesmo sem internet.</p>
-        </div>
-    </section>
-
-    <section class="dispositivos">
-        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
-        <ul class="dispositivos__lista">
-            <li>
-                <img src="img/tv.png" alt="Ícone de televisão">
-                <h3 class="lista__item">TV</h3>
-            </li>
-            <li>
-                <img src="img/computador.png" alt="Ícone de computador">
-                <h3 class="lista__item">Computador</h3>
-            </li>
-            <li>
-                <img src="img/celular.png" alt="Ícone de celular">
-                <h3 class="lista__item">Celular</h3>
-            </li>
-        </ul>
-    </section>
-
-    <footer class="rodape">
-        <img src="img/Logo.png" alt="Alura+" class="rodape__logo">
-        <ul class="rodape__lista">
-            <li class="lista__link">
-                <a href="#">Idioma</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Dispositivos compatíveis</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Contrato de assinatura</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Politica de privacidade</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Proteção de dados no Brasil</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Anuncios personalizados</a>
-            </li>
-            <li class="lista__link">
-                <a href="#">Ajuda</a>
-            </li>
-        </ul>
-        <p class="rodape__texto">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de
-            assinatura paga. Conteúdo sujeito a disponibilidade.</p>
-        <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O
-            serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São
-            Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
-    </footer>
-
-</body>
-
+   </footer>
+  
+    </header>
+  </body>
 </html>
