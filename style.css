@@ -296,6 +296,8 @@ body {
     position: relative;
     z-index: 1;
     align-items: center;
+    display: flex;
+		justify-content: center;
   }
   
   .circle {
