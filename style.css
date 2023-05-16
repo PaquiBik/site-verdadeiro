@@ -293,11 +293,11 @@ body {
   .wrapper {
     width: 200px;
     height: 60px;
-    
+    position: relative;
     z-index: 1;
     align-items: center;
-    display: flex;
-		justify-content: center;
+    display: 1;
+		justify-content: 29;
   }
   
   .circle {
