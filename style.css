@@ -230,7 +230,7 @@ body {
   }
   
   .grid-container {
-    
+    display: flex;
    
   }
   
